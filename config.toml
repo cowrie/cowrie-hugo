@@ -1,3 +1,3 @@
-baseURL = "http://example.org/"
+baseURL = "http://www.cowrie.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Cowrie SSH and Telnet Honeypot"
