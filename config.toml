@@ -6,8 +6,8 @@ theme = "ananke"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 8 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+Paginate = 8
+googleAnalytics = "UA-125411124-1"
 enableRobotsTXT = true
 
 [sitemap]
@@ -19,7 +19,7 @@ enableRobotsTXT = true
   favicon = ""
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
-  twitter = "https://twitter.com/GoHugoIO"
+  twitter = "https://twitter.com/micheloosterhof"
   instagram = ""
   youtube = ""
   github = "https://github.com/cowrie/cowrie"
