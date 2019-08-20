@@ -4,3 +4,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke
+[submodule "themes/hugo-theme-lean-launch-page"]
+	path = themes/hugo-theme-lean-launch-page
+	url = https://github.com/felicianotech/hugo-theme-lean-launch-page.git
