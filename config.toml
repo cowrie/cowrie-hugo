@@ -1,8 +1,8 @@
 title = "Cowrie"
 baseURL = "https://www.cowrie.org/"
 languageCode = "en-us"
-# theme = "ananke"
-theme = "hugo-theme-lean-launch-page"
+theme = "ananke"
+# theme = "hugo-theme-lean-launch-page"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
