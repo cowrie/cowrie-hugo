@@ -36,7 +36,7 @@ The strange hex is another story. It comes mostly from the fact that Telnet is n
 Things were taking shape and looking good, but Cowrie is a production project, and we needed to be able to actually use it in the wild. Setting up a machine to safely act as a backend takes a lot of time, and that would probably mean not much people would use the proxy, or they would use it unsafely. Enter the backend pool and its locked-down VMs, easily deployable and (to our best abilities) as safe as Cowrie's "shell" mode.
 
 <div style="text-align: center">
-    {{< figure src="/img/security-in-iot.jpg" caption="This will become relevant in the next paragraph. <sup>Credit: [Teespring](https://teespring.com/en-GB/shop/the-s-in-iot)</sup> ">}}
+    {{< figure src="/images/security-in-iot.jpg" caption="This will become relevant in the next paragraph. <sup>Credit: [Teespring](https://teespring.com/en-GB/shop/the-s-in-iot)</sup> ">}}
 </div>
 
 My first proposal for this would be to use Docker, but Michel suggested using Qemu. The advantage is significant: Qemu can run basically anything, while in Docker you're limited to existing images. And with Qemu you can also emulate other architectures, enabling, for example, to emulate IoT devices, which are among the most insecure ones laying around.[^2] This was my first contact with Qemu at all, but I must say you will eventually get the hang of it: once you know how to create images and run VM (or guests), it's basically rinse-and-repeat (making it work across different host environments is a whole different story, though).
