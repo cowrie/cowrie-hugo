@@ -4,7 +4,7 @@ title: Interesting Perl scripts through stdin
 author: "Michel Oosterhof"
 layout: post
 excerpt: "Some honeypot visitors seem more interested in checking whether others were there before..."
-tags: [ssh, kippo, honeypot, perl, cowrie]
+tags: [ssh, honeypot, perl, cowrie]
 comments: true
 featured_image: '/images/camel-bg.jpg'
 ---

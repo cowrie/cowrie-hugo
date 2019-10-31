@@ -1,7 +1,8 @@
 ---
 type: "page"
-title: "Download Cowrie"
+title: "Download"
 omit_header_text: true
+menu: main
 ---
 
 Download the latest Cowrie release at <a href="https://github.com/cowrie/cowrie/releases">https://github.com/cowrie/cowrie/releases</a>.
